@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tekken</title>
+</head>
+<body>
+ <div class="tekken-page">
+    <div class="side-bar">
+        <h2>namco</h2>
+        <ul>
+            <li>Games</li>
+            <li>Dark Theme</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+        <div class="main">
+            <h1>TEKKEN</h1>
+            <div><p id="character-select">select character</p></div>
+            <audio id="character-hover-sound" src="audio/click sound.mp3" preload="auto" mute="mute"></audio>
+            <audio id="bryan-sound" src="audio/bryan.mp3" preload="auto" mute="mute"></audio>
+            <audio id="char-select-sound" src="audio/chicken.mp3" preload="auto" mute="mute"></audio>
+                <div class="character-container">
+                    <div class="character-row">
+                    <div class="character"><img onmouseover="hoverCharacter(0)" onmouseout="chooseCharacterSentence()" id="kazuya" src="imgs/kazuya.jpg" alt="kazuya-icon"></div>
+                    <div class="character"><img onmouseover="hoverCharacter(1)" onmouseout="chooseCharacterSentence()" id="bryan" src="imgs/bryan.jpg" alt="bryan-icon"></div>
+                    <div class="character"><img onmouseover="hoverCharacter(2)" onmouseout="chooseCharacterSentence()" id="jin" src="imgs/jin.jpg" alt="jin-icon"></div>
+                    <div class="character"><img onmouseover="hoverCharacter(3)" onmouseout="chooseCharacterSentence()" id="king" src="imgs/king.jpg" alt="king-icon"></div>
+                    <div class="character"><img onmouseover="hoverCharacter(4)" onmouseout="chooseCharacterSentence()" id="hwoarang" src="imgs/hwoarang.jpg" alt="hwoarang-icon"></div>
+                    <div class="character"><img onmouseover="hoverCharacter(5)" onmouseout="chooseCharacterSentence()" id="kazumi" src="imgs/kazumi.jpg" alt="kazumi-icon"></div>
+                    </div>
+                    <div class="character-row">
+                    <div class="character"><img onmouseover="hoverCharacter(6)" onmouseout="chooseCharacterSentence()" id="heihachi" src="imgs/heihachi.jpg" alt="heihachi-icon"></div>
+                    <div class="character"><img onmouseover="hoverCharacter(7)" onmouseout="chooseCharacterSentence()" id="eddy" src="imgs/eddy.jpg" alt="eddy-icon"></div>
+                    <div class="character"><img onmouseover="hoverCharacter(8)" onmouseout="chooseCharacterSentence()" id="paul" src="imgs/paul.jpg" alt="paul-icon"></div>
+                    <div class="character"><img onmouseover="hoverCharacter(9)" onmouseout="chooseCharacterSentence()" id="yoshimitsu" src="imgs/yoshimitsu.jpg" alt="yoshimitsu-icon"></div>
+                    <div class="character"><img onmouseover="hoverCharacter(10)" onmouseout="chooseCharacterSentence()" id="julia" src="imgs/julia.jpg" alt="julia-icon"></div>
+                    <div class="character"><img onmouseover="hoverCharacter(11)" onmouseout="chooseCharacterSentence()" id="law" src="imgs/law.jpg" alt="law-icon"></div>
+                    </div>
+                    </div>
+            <div class="random-quote">
+                <p id="quote">"True King Never Dies. Never Give Up Soldier. Fight For Your Life"</p>
+            </div>
+        </div>
+        <div class="user">
+            <p class="user-name">Player</p>
+            <div class="user-icon">ICON</div>
+        </div>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
